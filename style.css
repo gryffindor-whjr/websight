@@ -1,0 +1,46 @@
+body{
+background-color: rgb(170, 139, 199);
+background-image: url(pic/thing1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+h1{
+color: rgb(175, 111, 175);
+font-family: "Papyrus";
+padding:300;
+font-size: 300;
+}
+
+.container {
+ display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin:100;
+}
+
+.container div{
+    margin:30px
+}
+
+p{
+text-align:center;
+
+}
+.anyname img{
+padding: 100px;
+opacity: 0.5;
+}
+.anyname p{
+    font-size: 30px;
+font-family: 'Lucida Handwriting';
+}
+p{
+    font-size: 100px;
+    font-family:Papyrus;
+}
+.anyname:hover img{
+    opacity: 8;
+    transform: scale(1.6);
+    }

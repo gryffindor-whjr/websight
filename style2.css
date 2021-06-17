@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(170, 139, 199);
+    background-image: url(pic/nice.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+
+.container {
+    display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin:100;
+   }
+.hi img {
+
+padding: 100px;
+opacity: 0.5;
+}
+.hi:hover img{
+opacity: 7;
+transform: scale(1.6);
+}
+
+.hi p{
+    font-size: 35px;
+font-family: 'Lucida Handwriting';
+padding-left: 125px;
+}
+p{
+    font-size: 70px;
+    font-family:Papyrus;
+}
